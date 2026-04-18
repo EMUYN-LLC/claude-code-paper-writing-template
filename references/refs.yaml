@@ -1,0 +1,21 @@
+# 引用文献レジストリ
+#
+# タグ形式: {著者姓}_{PMID}
+# papers フィールド: この文献を引用する論文 ID のリスト (例: [P01, P03])
+#
+# 新しい文献を追加する際は以下のフォーマットを使用すること。
+# PMID が不明な場合は pmid: "" のまま残す。
+
+references:
+  - tag: Author_12345678
+    authors: Author A, Author B
+    title: "Paper title here"
+    journal: Journal Name
+    year: 2020
+    volume: 63
+    issue: 4
+    pages: 100-108
+    pmid: "12345678"
+    doi: "10.0000/example.0000000000"
+    papers: [P01]
+    notes: ""

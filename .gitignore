@@ -1,0 +1,13 @@
+# 文献収集設定 (メールアドレスを含むため git 管理外)
+scripts/collect_config.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
